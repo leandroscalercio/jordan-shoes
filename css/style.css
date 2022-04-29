@@ -29,9 +29,9 @@ p {
 }
 
 .apresentacao {
-    background-image:url(/img/bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+  background: url("../img/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 400px;
 }
 
@@ -90,7 +90,7 @@ main {
 
 @media (max-width: 748px) {
   .apresentacao {
-    background-image:url(/img/bg-mb.png);
+    background: url("../img/bg-mb.png");
     background-repeat: no-repeat;
     background-size: cover;
   }
