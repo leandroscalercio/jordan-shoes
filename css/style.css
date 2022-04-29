@@ -26,16 +26,16 @@ p {
 .apresentacao {
   display: flex;
   flex-direction: column;
-
-  
 }
 
-.apresentacao{
- background: #000;
+.apresentacao {
+     background-image: url(./img/scalercio.png);
+    background-repeat: no-repeat;
+    background-size: cover;
   height: 400px;
 }
 
-.informacoes{
+.informacoes {
   font-size: 1.5em;
   background-color: #ccc;
   border-radius: 3px;
@@ -47,19 +47,17 @@ p {
   padding: 20px;
 }
 
-.informacoes h1,span{
- margin: 0;
- color: #000;
+.informacoes h1,
+span {
+  margin: 0;
+  color: #000;
 }
-
-
 
 main {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 
 .shoes {
@@ -90,32 +88,28 @@ main {
   transform: scale(1.1);
 }
 
-
 @media (max-width: 600px) {
+  .apresentacao {
+    background-image: url(./img/bg-mb.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
-  .apresentacao{
-  background-image: url('./img/bg-mb.png');
-  background-repeat: no-repeat;
-  background-size: cover;
+  .informacoes {
+    margin: 0;
+    width: 100%;
+  }
 
+  .logo {
+    display: none;
+  }
+
+  main {
+    text-align: center;
+  }
 }
 
-.informacoes{
-margin: 0;
-width: 100%;
-  
-}
-
-.logo{
-  display: none;
-}
-
-main{
-  text-align: center;
-}
-}
-
-footer{
+footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
