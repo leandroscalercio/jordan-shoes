@@ -96,7 +96,7 @@ main {
 @media (max-width: 600px) {
 
   .apresentacao{
-  background-image: url(./img/bg-mb.png);
+  background-image: url('./img/bg-mb.png');
   background-repeat: no-repeat;
   background-size: cover;
 
